@@ -8,7 +8,6 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    binding.pry
     @artist = Artist.new
   end
 
